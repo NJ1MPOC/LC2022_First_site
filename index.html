@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link href="styles.css" rel="stylesheet" type="text/css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+   <link rel="shortcut icon" type="x-icon" href="./images/fistICON.png">   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins:wght@100;200;300;400;500;600;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/c ss/bootstrap.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <link href='https://css.gg/chevron-up.css' rel='stylesheet'>
+   <title>A new challenger has appeared!</title>
+</head>
+
+<body>
+   <section class="header">
+      <nav>
+         <a id="navRedir" href=""><img src="./images/logoNJI.png"></a>
+         <div class="nav-links">
+            <i class="fa-solid fa-xmark" onclick="hideMenu"></i>
+            <ul>
+               <li><a href="#FIRST">GETTING STARTED</a></li>
+               <li><a href="#SECOND">INVESTMENT</a></li>
+               <li><a href="#THIRD">CONTROLLER</a></li>
+               <li><a href="#FOURTH">EXECUTION</a></li>
+               <li><a href="#FIFTH">HITBOXES</a></li>
+               <li><a href="#SIXTH">FRAME DATA</a></li>
+               <li><a href="#SEVENTH">CONCLUSION</a></li></DATAg>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="showMenu"></i>
+         </div>
+      </nav>
+      <div class="text-box">
+         <h1>Welcome, new challenger!</h1>
+         <p>In this simple primer, I am going to introduce you to the fundamentals
+            of 2D fighting games so that you can start your own
+            journey to become a world warrior.
+         </p>
+         <p2>
+            Disclaimer: This is not meant to be a comprehensive guide, but rather an introduction to the ideas you'll
+            want to learn, study, and train to master along the way.
+         </p2>         
+         <p3 class="funParagraph" id="testP">
+            <br>Note: this page is still under construction for mobile devices and being optimized for all screen resolutions
+         </p3>
+      </div>
+      <!-- Audio player stuff --> 
+      <audio id="audioMp3" controls muted loop>
+         <source src="./audio/song1.mp3" type="audio/mpeg">
+         <p>Your browser does not support the audio element.</p>
+       </audio>                         
+      <!-- todo: make a real audio player with art, playlist, etc-->       
+   </section>
+
+
+   <!------- Getting Started  ------->
+   <section class="START">
+      <h1 id="FIRST"><u>Your first steps</u></h1>
+      <p>So, you've watched the famous <a target="_blank" href="https://www.youtube.com/watch?v=JzS96auqau0/">evo moment #37</a> online
+         recently, or maybe one of the latest <a target="_blank" href="https://www.youtube.com/watch?v=1INU3FOJsTw">Street Fighter 6
+            trailers</a> piqued your interest.
+         <br> Perhaps you saw Street Fighter 5 or Guilty Gear Strive for sale on Steam and snagged it, just to find
+         yourself getting beat up in ranked matches online.
+         <br><br>Whatever the case may be, let's get you on the path.
+      </p>
+
+      <div class="startPics">
+         <figure>
+            <img id=arcadeImg src="./images/Image6.jpg" alt="arcade.jpg">
+            <figcaption id="nextWhat">Next Level Arcade, Brooklyn NY</figcaption>
+         </figure>
+         <figure>
+            <img id=evoImg src="./images/Image7.png" alt="evo.jpg">
+            <figcaption id="evoWhat">Pictured: EVO 2022 tournament</figcaption>
+         </figure>
+      </div>
+   </section>
+
+   <!------- Investment -------->
+   <section class="INVESTMENT">      
+      <h1 id="SECOND">         
+         <u>Investment</u>         
+      </h1>
+      <div class="richRow">
+         <img class="img-study" src="./images/ryuPic1.jpg" alt="gettingLearnt.jpg">
+         <img class="img-study2" src="./images/ryuPic2.png" alt="gettingLearned.img">
+      </div>   
+      <div class="inv-row">
+         <div class="inv-col">
+            <h2 style="font-size: 55px;">Manage</h2>
+            <b><p style="font-size: 25px;">
+               Before we get into the game,<br>
+               I think the best place to start<br>
+               any new undertaking is with yourself.<br>
+               It's important to manage your expectations <br>
+               before learning something new.<br><br></p></b>
+         </div>
+         <div class="inv-col">
+            <h2 style="font-size: 55px;">Your</h2>
+            <b><p style="font-size: 25px;">Do you want to mess around and have fun playing randomly?<br>
+               Do you want to climb the ladder online?<br>
+               Do you want to travel and compete in or win tournaments?<br>
+               There is no wrong answer to this question.<br><br></p></b>
+         </div>
+         <div class="inv-col">
+            <h2 style="font-size: 55px;">Expectations!</h2>
+            <b><p style="font-size: 22px;">
+               Eric Clapton didn't become a guitar legend by accident.<br> 
+               He practiced 12-15 hours a day growing up.<br>
+               If your goals are not to improve and win,<br>
+               you don't need to master these concepts.<br>
+               Investing MORE time and effort rewards MORE fun and satisfaction.<br>
+               However, you may have other priorities<br>
+               besides winning at fighting games, and that's okay.<br></b>
+            </p>
+         </div>
+      </div>
+   </section>
+   <!------- Controller -------->
+   <section class="HANDLE">
+      <h1 id="THIRD"><u>Getting a grip on things</u></h1>
+      <div class="handlesOne">
+         <img id="handle1" src="./images/Handle1.png" alt="controller1.jpg">
+         <img id="handle2" src="./images/Handle2.jpeg" alt="controller2.jpg">
+         <img id="handle3" src="./images/Handle3.png" alt="controller3.jpg">
+         <img id="handle4" src="./images/Handle4.png" alt="controller4.jpg">
+      </div>      
+      <h2>
+         People use many different controllers to play fighting games. <br><br>
+         Controllers, arcade sticks, hitboxes, mixboxes, bat top sticks, crossup hitboxes, custom controllers,<br><br>
+         keyboards, snack boxes, pizza boxes, someone has even <a href="https://youtu.be/n_irhlVNkKM?t=16">made it to
+            the main stage</a> in a tournament <br><br> using a racing wheel with buttons on it. There are many
+         controllers
+         to consider when playing fighting games,<br><br>
+         and many may argue that certain controllers give you an extra advantage.
+      </h2>
+      <div class="handlesTwo">
+         <img id="handle5" src="./images/Handle5.jpeg" alt="controller5.jpg">
+         <img id="handle6" src="./images/Handle6.jpeg" alt="controller6.jpg">
+         <img id="handle7" src="./images/Handle7.jpng.png" alt="controller7.jpg">
+         <img id="handle8" src="./images/Handle10.png" alt="controller8.jpg">
+      </div>
+
+      <h3 id="mainHeading">
+         With that out of the way, I want you to forget about what I just said.
+
+      </h3>
+      <p id="fantastic">"Real fighting game players use arcade sticks!" is an outdated legacy myth.<br><br>
+         Most people saying that grew up playing in arcades, on arcade cabinets, which is what modern sticks you plug in
+         to your console are
+         modeled after.<br><br>
+         Furthermore, arcade sticks were a way to cope with bad controllers in days gone by like the Xbox 360
+         controller. What a nightmare that pad was.<br><br>
+         Sticks are, admittedly, a very nice novelty item, they are very customizable, and there are a large variety of
+         styles and brands.<br><br>
+         However, you most certainly don't need one to do good or win.<br><br>
+         At the end of the day, use what you enjoy using and what makes you feel comfortable.<br><br>
+         Technology has come a long way in making every controller choice a good one.
+
+      </p>
+   </section>
+   <!------- Execution -------->
+   <section class="EXECUTION">
+      <h1 id="FOURTH"><u>Execution</u></h1>
+      <p id="guillotine">Execution here is defined as how well you can execute inputs on your controller or stick,
+         <br>not so much death by guillotine (unless you're a Mortal Kombat player...)
+         <br>Being able to manipulate your character exactly how you want, especially reflexively is not an easy thing
+         to do.
+         <br>If you need to think about every individual word you are saying in a speech or conversation, you're already
+         behind.
+         <br>Much like learning motor skills as a newborn, this is not learned overnight.
+      </p>
+      <img id="fgsHard" src="./images/Image3.jpg" alt="fgsHard.jpg">
+      <h2>Learning a character</h2>
+      <div class="exec-row">
+         <div class="exec-col">
+            <p id="starter">
+               I heavily recommend all new players sticking to one character<br><br>
+               and getting familiar with all their basic and special attacks.<br><br>
+               If you keep changing characters while learning, it would be as if<br><br>
+               you were exchanging your legs every couple of days while learning to walk.<br><br>
+               That is to say, you should fully learn to ride a bicycle,<br><br>
+               before moving on to the motorcycle.<br><br>
+               ...<br><br>
+               I further recommend most people try and start off with the main character<br><br>
+               or protagonist to learn how the game fundamentally works.<br><br>
+               However, I also have come to learn while teaching over the years that<br><br>
+               the key for some people is playing the character you like most,<br><br>
+               even at the beginning. If you enjoy what you're doing,<br><br>
+               you'll want to come back and do it again, because you're having fun,<br><br>
+               not doing chores. Your mileage WILL vary, find what works for you!<br>
+            </p>
+         </div>
+         <img id="moveList" src="./images/Image13.png" alt="moveList.jpg">
+      </div>
+
+      <div id="numpadHeader">
+         <h3>Numpad Notation</h3>
+      </div>      
+      <div class="numpadRow">
+         <figure class="numOne">
+            <img id="numPic" src="./images/numpadPic.jpg" alt="numpadNotation.jpg">
+            <figcaption>Try pressing your numpad keys while reading to get familiar with the inputs.</figcaption>
+         </figure>
+         <div class="numTwo">
+            <h4 id="pleaseHead">Please take some time to examine the image to the left carefully.</h4><br>
+            <!-- <div class="numRight"> -->
+            <p id="numText">
+               This the most commonly agreed-upon notation people use to talk about 2D fighting game inputs.<br><br>
+               Let's use Ryu's list of commands above for reference, using numpad notation to talk about his
+               moves.<br><br>
+               I am going to assume you are in the first player position - on the left, facing right - and holding your
+               thumb or stick at neutral (5).<br><br>
+               For Ryu's hadoken (fireball), you would move your controller or stick in a quarter circle forward, or
+               2-3-6+Punch.<br><br>
+               To do his shoryuken (dragon punch), you'll want to move your controller/stick first to 6, down to 2, and
+               then
+               slightly
+               forward to 3, or 6-2-3+Punch.<br><br>
+               For tatsumaki senpukyaku (hurricane kick) you'll want to do the opposite of a hadoken, quarter
+               circle
+               back, or 2-1-4+Kick.<br><br>
+               More complex inputs can come later, it's good to get those three down first. Make sure you practice on
+               both sides of the screen.
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="HITBOXES">
+      <h1 id="FIFTH">Hitboxes</h1>
+      <p id="hitPtOne">
+         Much like learning about the code that's going on behind the scenes to make websites run,<br>
+         there's quite a bit going on under the hood when you start to break down fighting games to understand what's
+         happening.<br>
+         What the player and audience see on the screen are a couple of characters fighting and doing cool moves.<br>
+         It may LOOK like your character is punching above or in front of them, but in reality they're manipulating a
+         box or boxes attached to their body.<br>
+         Let's examine one of Ryu's hitboxes below:
+      </p>
+      <div class="hitRowOne">
+         <figure>
+            <img src="./images/RyuHKgif.gif" alt="ryuHK.gif">
+         </figure>
+         <ul id="hboxList">
+            <li> The <span id="whiteWord"> white hitbox</span> represents Ryu's own hitbox, where you can hurt the
+               character.<br>
+               Notice that while Ryu is doing his kick attack, there is still a white hitbox on his leg that can be
+               hurt.<br>
+               This means he can still be hit while he is attacking, the hurtbox on his leg is just moving with the attack.
+            </li><br><br><br><br>
+            <li>The <span id="redWord">red hitbox</span> represents what is actually happening when Ryu tries to kick
+               his opponent.<br>
+               If the red hitbox of your attacking move overlaps your opponent's white hitbox, it will make
+               "contact".<br>
+               This interaction is at the core of what fighting games are: an exchange of hitboxes and hurtboxes.
+            </li>
+         </ul>
+      </div>
+      <div id="hitProj">
+         <p2>
+            There are many different kinds of <a
+               href="https://www.eventhubs.com/images/2011/sep/30/ryus-hit-box-information-super-street-fighter-4-arcade-edition-image-1/">hitboxes:</a>
+            strike, high, overhead, low, and grab.<br>
+            The scope of these go beyond this guide, but let's examine one other kind of hitbox: <p2 style="color: red">
+               the projectile.</p2>
+         </p2>
+      </div>
+      <img id="hitHado" src="./images/RyuHadoGIF.gif" alt="hadoken.gif">
+      <div id="hitProjTwo">
+         <p>
+            Rather than being part of a character's body, a projectile is, you guessed it, shot or fired by a
+            character.<br>
+            Although you can see it takes a moment to start up and get going, what's unique is that it will keep
+            traveling with no hurtbox.<br>
+            This means that you can act independently of your projectile after you've finished firing it. It gives you
+            an advantage in controlling space.<br>
+            One last thing to consider is that projectiles can clash with eachother.<br>
+            This may result in what you may have heard in the past as "fireball wars," or a struggle between two players
+            to control space.<br>
+         </p>
+      </div>
+   </section>
+   <section class="FRAME_DATA">
+      <h1 id="SIXTH">Frame Data</h1>
+      <div>
+         <p>
+            If hitboxes are the engines behind what makes fighting games run, then frame data is like the battery and
+            alternator.<br>
+            It's another very important aspect behind what's happening under the hood of your fighting game.<br><br>
+            
+               Most, if not all modern fighting games "run" or "process" at 60 frames per second.<br>
+               Therefore, one frame is equal to 1/60 of a second.<br><br>
+               If Ryu's jab 'came out' in 3 frames,<br>
+               that means it only takes 3/60 of a second to be active.<br><br>
+
+            Let's take a moment to think about this:<br>
+         </p>
+         <span style="color:greenyellow; font-size: 40px">Do you think a big windup knockout punch has the same effect as a jab
+            or leg kick?<br></span>
+         <div id="punchKickRow">
+            <img src="./images/runPunch.gif" alt="punch.gif">
+            <img src="./images/legKick.gif" alt="kick.gif">
+         </div>         
+      </div>
+      <div class="frameDivTwo">
+         <p>
+            <u><b><span style="font-size: 40px; color:burlywood;">Much like in real life, attacks in fighting games are the same:</span></b></u>            
+         <ul>
+            <li>Varying amounts of time to build up or start up</li>
+            <li>Different effects when they connect or get blocked</li>
+            <li>Taking time to recover from recoil or following through</li>
+            <li>You can miss or whiff your attack, and still have to recover</li>
+         </ul>
+         </p>
+      </div>
+      <div>
+         <img id="ryuHKimg" src="./images/ryuHK.jpeg" alt="frameData.gif">
+         <br><br><h3 style="color:burlywood">The frames of any attack can be broken down into basic 3 parts:</h3><br>
+         <ol>
+            <li>
+               <b><u><span style="color: yellow;">Startup frames:</span></u></b> your attack is not active yet, you're still winding up.<br>
+               (Faster attacks have less startup.)
+            </li>
+            <li>
+               <b><u><span style="color:firebrick;">Active frames:</span></u></b> your punch, kick, or other attack is out,<br>
+               and the <span id="redWord">red hitbox</span> is "active" and threatening.
+            </li>
+            <li>
+               <b><u><span style="color:royalblue;">Recovery frames:</span></u></b> you've either hit or missed your attack,<br>
+               and you have to spend time recovering based on how heavy it was.
+            </li>
+         </ol>
+         <b>
+            <u><p style="font-size: 40px; color:burlywood;">Understanding this, even just fundamentally, is essential to understanding risk
+               vs reward!</p></u>
+         </b>
+      </div>
+      <div class="frameRowTwo">
+         <p style="font-size: 25px; text-align:justify;">
+            <span style="font-size: 35px; text-align: center;">
+            Let's examine the risk vs. reward a little more closely:</span><br><br>
+            Every attack has its own frame data, and certain attacks are safer than others.<br>
+            Yes, massive wind-up punches or kicks look cool and are satisfying to land,<br>
+            but they are not a safe option to rely on.<br>
+            This is why the jab is like the swiss army knife of real fighting.<br><br>
+
+            If an attack is "plus on hit," (most attacks are) that means you can start moving or attacking<br>
+            after your recovery frames are over, while your opponent is stuck<br>
+            in X amount of frames of being hit (see right).<br><br>
+
+            If an attack is "plus on block," you can start moving or attacking<br>
+            after your recovery is over, but your opponent is still stuck in X amount of frames of block.<br><br>
+
+            Likewise, however, if an attack of yours is negative on block, that means the opponent will recover<br>
+            from the blockstun you inflict before you finish recovering from whatever attack you did.<br>
+            This essentially means you "lose your turn" because they can act before you can.<br><br>
+
+            If an attack is very negative on block (they can act long before you recover),<br>
+            you could find yourself getting punished, because they recovered from blocking your high risk attack!<br>
+            This means you can't block before they can retaliate, since you're still stuck in a bunch of recovery frames.<br>
+            If you're going to commit to a high-risk, high-reward attack, make sure it's going to connect and hit!
+         </p>
+         <figure class="crMPfig">
+            <img id="frameTwoPic" src="./images/frameData.gif" alt="frameData.gif">
+            <figcaption style="font-size: 18px; color:cyan;">
+               See those empty white frames after recovering on top?<br>
+                This is where you decide how to press your advantage!<br>
+               Will you walk up and throw? Fake a throw? Do another attack?
+            </figcaption>
+         </figure>
+      </div>
+      <p>
+         <br><br>I highly recommend watching this short and sweet 5 minute video before you move on:<br><br>
+     </p>
+     <iframe width="640" height="360" src="https://www.youtube.com/embed/8gtklnzge00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div>
+         <p>
+            <br><span style="font-size: 30px;">Bonus: if you cancel the active frames of a normal attack with a special attack like hadoken (fireball), 
+               <br>before the enemy's hitstun (see above pic) ends, what do you think will happen?</span><br>
+            <figure>
+               <img style="width:500px;"src="./images/cancelGif.gif" alt="specialCancel.gif"><br>
+            </figure>
+            <span style="font-size: 30px;">If you guessed "Wait, that's what a combo actually is!" you'd be right.</span>
+         </p>
+      </div>
+   </section>
+   <section class="CONCLUSION">
+      <!---todo: consider adding observation (watching replays) to conclusion(hearing own voice), and section about other FGs, supplemental resources (footsies video, glossary, etc?)-->
+      <h1 id="SEVENTH">Wrapping things up</h1>
+      <div class="sf3bg">
+         <p id="concP1">
+            The first and final obstacle to winning and improving is going to be yourself and your own mind.<br>
+            As with any other meaningful venture or undertaking, you will find yourself standing in your own way.<br>
+            The best way to overcome this is by watching recordings of the matches you play or compete in.<br><br>
+            Have you ever felt uncomfortable after hearing your own voice from recorded dialogue or an answering machine?<br>
+            Regardless of your prior confidence, a realization and sudden burst of self-awareness like this is a wake up call.<br><br>
+            You may <em>think</em> you were playing your best in that one match, but will likely think otherwise when you watch it later.<br>
+            It is good to do this regularly, much like checking in to see your weight for gains or losses, it is honest feedback.<br><br><br>
+         </p>
+         <div id="concP2">
+         <p2>
+               Enter: replays. You gotta go back and "watch the footage," as they say.<br>
+               For example, while you're reviewing a saved replay <br>
+               from one of your matches, you might remember saying:<br>
+                "I swear I did a dragon punch in round 2 that one time he jumped at me!"<br>
+               only to watch it back and say "...oh wait no i made an input error after all..."<br>
+               In many modern fighting games, you can toggle controller inputs during replays.<br>
+               Doing so, you may realize: "wow this guy's inputs I was fighting are super clean!"<br> 
+               or perhaps, "dang this guy was mashing buttons like crazy the whole time..."<br><br>
+               A big thing to keep an eye out for is repeat mistakes or patterns.<br>
+               Maybe you're not pressing the advantage hard enough when you are in an advantage state,<br>
+               or maybe you keep getting stuffed when you try to force your turn back in disadvantage.<br>
+               
+               <br>Lastly, it's important to watch other player's replays, not just your own.<br>
+               There is nothing wrong with copying things from players better than you.<br>
+               I recommend watching higher level matches, both online and tournament.<br>
+               It's a good starting point, and honestly, downright entertaining the more you learn.              
+         </p2>
+         <figure>
+         <img id="replays"src="./images/replays.png" alt="replays.png">
+         <figcaption style="text-align: center; color:red; font-size: 20px;">This is what the screen to watch saved replays looks like in SF4.</figcaption>
+         </figure>
+      </div> 
+      </div>
+      <h4 id="breakerConc"></h4>
+      <h2 id="endinning">Final Thoughts</h2>
+      <h4 id="breakerConc"></h4>      
+      <div class="sf2bg">
+         <p>
+            <br>At the end of the day, fighting games are a journey<br>
+            with highs and lows, sorrow and joy, anger and salt.<br>
+            You have the opportunity to travel and meet other warriors<br>
+            who are also on the path to grow and improve or seek glory.<br>
+            David Sirlin, author of <a href="https://www.sirlin.net/ptw">Playing To Win</a>, sums it up well:<br><br>
+            <div class="sirlinQuote">
+               <p id="quoteText">
+               &quot;So do all the lessons of winning at games apply to real life? No, they do not. <br>
+               But only a fool would walk away from competitive games<br>
+               without learning a wealth of life lessons.<br>
+               Games require training, practice, and discipline.<br>
+               Having a love for what you’re doing really does help you.<br>
+               Games teach you to remain calm under the most dire of circumstances,<br>
+               and to never give up until your very last breath of life is spent.<br>
+               They teach you to learn from your mistakes, rather than shift the blame to others,<br>
+               because that is the only real way to improve.<br>
+               They teach that continuous self-improvement over time is the only way to survive.&quot;
+               </p>
+            </div>                 
+         </p>
+      </div>
+      <h4 id="breakerConc"></h4>
+      <h2 id="supplemental">Supplemental resources:</h2>         
+      <h4 id="breakerConc"></h4> 
+      <article class="suppRow">         
+         <!-- todo: add more useful supplemental resources (glossary, more videos, discord, reddit, guides, etc) -->
+         <p> <span style="color: red;">New Challenger Discord:</span><a target="_blank" href="https://discord.gg/newchallenger"> https://discord.gg/newchallenger</a><br>
+             Great community with a ton of resources for beginners,<br>
+             coaching, community tournaments, and helpful people.
+         </p>   
+         <p>
+            <span style="color: green;"> The Fighting Game Glossary: </span> <a target="_blank" href="https://glossary.infil.net/">https://glossary.infil.net/</a><br>
+            Glossary made by a top player with all the jargon<br>
+            you may encounter in the Fighting Game Community(FGC).
+         </p>      
+         <p>
+            <span style="color: cyan;">Video guides, all highly recommended!!</span><br>
+            <a target="_blank" href="https://www.youtube.com/watch?v=mhkLBaDPuA8">Fundamentals & the art of "footsies"</a><br>
+            <a target="_blank" href="https://www.youtube.com/watch?v=HFTvXXoDNRA&list=PL2C2A0F3BE74B54F6">Fantastic tutorial playlist I used 13+ years ago</a><br>
+            <a target="_blank" href="https://www.youtube.com/watch?v=-1T1Y1ZAdDI&list=PL6Zpep0TMBYQltmphkT0s2O5d3I4al2c6">Sajam's videos on improving your mental</a>
+         </p>
+      </article>
+      <br> <span style="color: blanchedalmond;"> And lastly, me! Feel free to click my logo at the top left of the page and add me on steam if you need help or want to play.<br>
+      Thanks for reading and best of luck on your own journey. </span>
+   </section>
+
+   <a class="to-top" href="#"><i class="gg-chevron-up"></i></a>
+</body>
+<footer>
+   <script src="scripts.js"></script>   
+   <script  src="js/player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</footer>
+
+</html>
